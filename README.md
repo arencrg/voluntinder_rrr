@@ -61,8 +61,6 @@ This is where our app comes in. The app we've been working on is a platform to d
 Basically, **happy volunteers => happy communities => returning volunteers => better experences for both parties.**
 
 ## Application Design
-(How we planned, screenshots of our convos on Slack, screenshots of Google Sheets/Docs, etc)
-
 
 ![Initial Planning](/Documentation_Screenshots/day1.jpg)
 
@@ -156,8 +154,13 @@ The connection between Volunteer and Institution is only through the created Opp
 
 
 ## Tools and Methodologies
-(some copy of why React, why no backend, etc)
-(Links to the previous repos and all the stuff I cloned to learn how to make this app)
+
+The basic structure of this app is based on Bucky Roberts's [repo](https://github.com/buckyroberts/React-Redux-Boilerplate) and his [React-Redux tutorial on Youtube](https://www.youtube.com/watch?v=DiLVAXlVYR0&list=PL6gx4Cwl9DGBbSLZjvleMwldX8jGgXV6a). As for the React-Router tutorial, Aren watched Evan Jones's [Youtube tutorial](https://www.youtube.com/watch?v=Smk2FusU_70&t=739s).
+
+This project went through a lot of changes, with two major repos and several overwrites and commits. This repo is the main repo, there's an existing backup, and there are 2 other repos that hold a few parts of the older versions of this project.
+
+As to why we chose to code in React without a real backend (no server (Node/Express) nor database client (Mongo)), we decided that React would be enough to show the functionality of the app.
+
 
 ## Usage
 

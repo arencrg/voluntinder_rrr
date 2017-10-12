@@ -11,9 +11,9 @@ class AllOpps extends Component {
     return this.props.opps.map((opps, i) => {
       return(
           <Col s={12} m={4} xl={3}>
-            <Card id="oppscard">
+            <Card id="oppscard" key={i}>
               <Link to={`/opportunity/${opps.id}`}>
-                  <h5 key={i} onClick={() => this.props.openOneOpp(opps)}>{opps.name}</h5>
+                  <h5 onClick={() => this.props.openOneOpp(opps)}>{opps.name}</h5>
               </Link>
             </Card>
           </Col>
@@ -23,8 +23,8 @@ class AllOpps extends Component {
 
   render() {
     return (
-      <div>
-        <h4><center>Here are all of our available volunteer opportunities:</center></h4>
+      <div id="indextext">
+        <h4>Here are all of our available volunteer opportunities:</h4>
         <Row>
         {this.showAllOpps()}
         </Row>

@@ -14,8 +14,8 @@ class IndexPage extends Component {
       return(
          <Col s={12} m={4}>
           <Link to={`/opportunity/${opps.id}`}>
-            <Card id="oppscard">
-              <h5 key={i} onClick={() => this.props.openOneOpp(opps)}>{opps.name}</h5>
+            <Card id="oppscard" key={i}>
+              <h5 onClick={() => this.props.openOneOpp(opps)}>{opps.name}</h5>
             </Card>
           </Link>
         </Col>
@@ -26,9 +26,9 @@ class IndexPage extends Component {
     render() {
       if (!this.props.user) {
           return (
-            <div>
-              <p><center>Our team believes that work done for no one's benefit is time wasted. The problem we've decided to focus on is the lack of resources to find meaningful projects for people to dedicate themselves to, so we decided to create a matching platform for volunteer experiences.
-              <br/><br/>Check out some of our available volunteer opportunities below.</center></p>
+            <div id="indextext">
+              <p>Our team believes that work done for no one's benefit is time wasted. The problem we've decided to focus on is the lack of resources to find meaningful projects for people to dedicate themselves to, so we decided to create a matching platform for volunteer experiences.
+              <br/><br/>Check out some of our available volunteer opportunities below.</p>
               <Row>
               {this.showSomeOpps()}
               </Row>
@@ -38,9 +38,9 @@ class IndexPage extends Component {
         }
         else {
           return(
-            <div>
-              <p><center>Our team believes that work done for no one's benefit is time wasted. The problem we've decided to focus on is the lack of resources to find meaningful projects for people to dedicate themselves to, so we decided to create a matching platform for volunteer experiences.
-              <br/><br/>Check out some of our available volunteer opportunities below.</center></p>
+            <div id="indextext">
+              <p>Our team believes that work done for no one's benefit is time wasted. The problem we've decided to focus on is the lack of resources to find meaningful projects for people to dedicate themselves to, so we decided to create a matching platform for volunteer experiences.
+              <br/><br/>Check out some of our available volunteer opportunities below.</p>
               <Row>
               {this.showSomeOpps()}
               </Row>

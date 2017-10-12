@@ -6,30 +6,32 @@ $font2:  Bitter, serif;
 $primary: #dc5326;
 $secondary: black;
 
+
+body, p, label, ul, li {
+	font-size: 15px;
+  color: $secondary;
+	font: 100% $font2;
+}
+
 h1, h2, h3, h4 {
 	color: $primary;
 	font-family: $font1;
 	font-weight: 700;
 	font-style: italic;
 
-h1 { font-size: 24px; }
-h2 { font-size: 22px; }
-h3 { font-size: 20px; }
+h1 { font-size: 22px; }
+h2 { font-size: 20px; }
+h3 { font-size: 18px; }
 }
 
 h4, h5 {
 	font-family: $font1;
 	font-style: normal;
-h4 { font-size: 18px; color: $primary}
+h4 { font-size: 16px; color: $primary}
 h5 { font-size: 14px; color: $secondary; }
 }
 
 
-p, label, li {
-	font-size: 14px;
-  color: $secondary;
-	font: 100% $font2;
-}
 
 a {
 	 color: $primary;
@@ -76,4 +78,9 @@ a {
 	display: inline-block;
 	text-align: center;
 	width: 100%;
+}
+
+#indextext {
+	text-align: center;
+	display: inline-block;
 }
