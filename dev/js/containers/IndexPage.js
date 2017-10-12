@@ -16,26 +16,47 @@ class IndexPage extends Component {
   }
 
     render() {
-      return (
-      <div>
-        <h3>This the index page</h3>
-        <p>(Some copy here, something about volunteering and this project, and then show like 3-5 opps then a link to all available opps)</p>
-        <h3>Here are some of our available opps!</h3>
-        {this.showSomeOpps()}
-        <br/>
-        <h3>Do you want to see more opps?</h3>
-        <Link to="/opportunities">See all opps</Link>
-        <br/>
-        <h3>Create your profile now!</h3>
-        <Link to="/newvolunteer">Create account</Link>
-      </div>
-      )
+          if (!this.props.user) {
+              return (
+                <div>
+                  <h3>This the index page</h3>
+                  <p>(Some copy here, something about volunteering and this project, and then show like 3-5 opps then a link to all available opps)</p>
+                  <h3>Here are some of our available opps!</h3>
+                  {this.showSomeOpps()}
+                  <br/>
+                  <h3>Do you want to see more opps?</h3>
+                  <Link to="/opportunities">See all opps</Link>
+                  <br/>
+                  <h3>Create your profile now!</h3>
+                  <Link to="/createprofile">Create account</Link>
+                </div>
+              );
+            }
+
+            else {
+              return(
+                <div>
+                  <h3>This the index page</h3>
+                  <p>(Some copy here, something about volunteering and this project, and then show like 3-5 opps then a link to all available opps)</p>
+                  <h3>Here are some of our available opps!</h3>
+                  {this.showSomeOpps()}
+                  <br/>
+                  <h3>Do you want to see more opps?</h3>
+                  <Link to="/opportunities">See all opps</Link>
+                  <br/>
+                  <h3>Create your profile now!</h3>
+                  <Link to="/profile/:id">Your Profile</Link>
+                </div>
+              );
+            }
+
     }
 }
 
 function mapStateToProps(state) {
     return {
-        opps: state.opps
+        opps: state.opps,
+        user: state.user
     };
 }
 

@@ -16,6 +16,7 @@ import App from './components/App';
 import AllOpps from './containers/AllOpps';
 import OneOpp from './containers/OneOpp';
 import New from './containers/New';
+import Profile from './containers/Profile';
 
 
 const logger = createLogger();
@@ -31,8 +32,9 @@ const Routes = props => {
     <Router history={browserHistory}>
       <Route path="/" component={App}/>
         <Route path="/opportunities" component={AllOpps}/>
-        <Route path="/opportunity/:id" compoemt={OneOpp}/>
-        <Route path="/newvolunteer" component={New}/>
+        <Route path="/opportunity/:id" component={OneOpp}/>
+        <Route path="/createprofile" component={New}/>
+        <Route path="/profile/:id" component={Profile}/>
         <Route path="*">
           <IndexRedirect to="/" />
         </Route>

@@ -32,7 +32,7 @@ At this point, you may find yourself asking, _Why volunteer? Who still does that
 
 > "Service to others is the rent you pay for your room here on Earth."
 
-You may not get paid for your hours, trust us, the fulfilment you get and the gratefulness of the people whom you've helped is more than enough for payment. Aren, one of the members of the team, has volunteered in three different countries and in several typhoon relief operations in her university, and she is a staunch believer in the good that comes from genuine volunteer work. Marc, the other half of the duo also thinks.. ano, Marc =))))
+You may not get paid for your hours, trust us, the fulfilment you get and the gratefulness of the people whom you've helped is more than enough for payment. Aren, one of the members of the team, has volunteered in three different countries and in several typhoon relief operations in her university, and she is a staunch believer in the good that comes from genuine volunteer work. Marc, the other half of the duo also thinks that volunteering is a way of giving back to the community.
 
 After a few days of research, we were able to find a few reputable groups that have compiled a list of volunteer groups and NGOs, some of them have the projects categorized and have the application links right then and there; their system is robust and it works. There are already good systems in place. Okay, so if it ain't broke, why fix it?
 
