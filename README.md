@@ -62,15 +62,17 @@ Basically, **happy volunteers => happy communities => returning volunteers => be
 
 ## Application Design
 (How we planned, screenshots of our convos on Slack, screenshots of Google Sheets/Docs, etc)
-![Initial Planning](/Documentation_Screenshots/day1.png)
 
-![Google Sheets Planning](/Documentation_Screenshots/gsheet.png)
 
-![Letter to iVolunteer](/Documentation_Screenshots/letter_ivolunteer.png)
+![Initial Planning](/Documentation_Screenshots/day1.jpg)
 
-![Slack Conversations](/Documentation_Screenshots/slack.png)
+![Google Sheets Planning](/Documentation_Screenshots/gsheet.PNG)
 
-![More Slack Conversations](/Documentation_Screenshots/slack2.png)
+![Letter to iVolunteer](/Documentation_Screenshots/letter_ivolunteer.PNG)
+
+![Slack Conversations](/Documentation_Screenshots/slack.PNG)
+
+![More Slack Conversations](/Documentation_Screenshots/slack2.PNG)
 
 ![Even More Slack Conversations](https://github.com/marc-acm/voluntinder-ir/blob/master/images/VOLUNTINDER-SLACK.png)
 
