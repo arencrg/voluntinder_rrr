@@ -4,47 +4,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { createNewUser } from '../actions/index'
 
-class CheckboxGroup extends Component {
-
-  checkboxGroup() {
-      let {label, required, options, input, meta} = this.props;
-
-      return options.map((option, index) => {
-          return (
-          <div className="checkbox" key={index}>
-              <label>
-                  <input type="checkbox"
-                         name={`${input.name}[${index}]`}
-                         value={option.name}
-                         checked={input.value.indexOf(option.name) !== -1}
-                         onChange={(event) => {
-                             const newValue = [...input.value];
-                             if (event.target.checked) {
-                                 newValue.push(option.name);
-                             } else {
-                                 newValue.splice(newValue.indexOf(option.name), 1);
-                             }
-
-                             return input.onChange(newValue);
-                         }}/>
-                  {option.name}
-              </label>
-          </div>)
-      });
-  }
-
-  render() {
-      return (
-          <div>
-              {this.checkboxGroup()}
-          </div>
-      )
-  }
-}
-
-
 class New extends Component {
-
 
     render() {
 
@@ -71,10 +31,6 @@ class New extends Component {
             <input type="text" placeholder="Name"/><br/><br/>
             <input type="text" placeholder="Email Address"/> <br/><br/>
             <input type="text" placeholder="Phone Number"/>
-
-            < Field name = "skills" component={CheckboxGroup} option={chooseSkills} />
-            < Field name = "interests" component={CheckboxGroup} option={chooseInterests} />
-
               <br/>
             <button onClick={() => this.props.createNewUser(user)}>Save your profile</button>
           </form>
