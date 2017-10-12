@@ -21,7 +21,6 @@ class AllOpps extends Component {
       <div>
         <h3>Here we will show all the available opps.</h3>
         {this.showAllOpps()}
-
         <br/>
         <Link to="/">Back</Link>
       </div>

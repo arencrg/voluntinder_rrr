@@ -6,7 +6,6 @@ export const createNewUser = (user) => {
     }
 };
 
-
 export const openOneOpp = (opp) => {
     console.log("You have opened one opp!");
     return {
