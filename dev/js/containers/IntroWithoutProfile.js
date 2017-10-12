@@ -8,7 +8,7 @@ class IntroWithoutProfile extends Component {
           <Row>
             <Col s={12} m={6} >
             <Link to="/opportunities">
-               <Card id="showallcard">
+               <Card id="routescard">
                  <h5>View all opportunities</h5>
                </Card>
             </Link>
@@ -16,7 +16,7 @@ class IntroWithoutProfile extends Component {
 
             <Col s={12} m={6} >
             <Link to="/createprofile">
-               <Card id="showprofilecard">
+               <Card id="routescard">
                  <h5>Create your profile</h5>
                </Card>
             </Link>

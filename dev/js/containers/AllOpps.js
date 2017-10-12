@@ -23,8 +23,8 @@ class AllOpps extends Component {
 
   render() {
     return (
-      <div id="indextext">
-        <h4>Here are all of our available volunteer opportunities:</h4>
+      <div className="container">
+        <h4 id="indextext">Here are all of our available volunteer opportunities:</h4>
         <Row>
         {this.showAllOpps()}
         </Row>
@@ -32,7 +32,7 @@ class AllOpps extends Component {
         <Row>
           <Col s={12} >
             <Link to="/">
-              <Card id="showprofilecard">
+              <Card id="routescard">
                 <h5>Back to the main page</h5>
               </Card>
             </Link>

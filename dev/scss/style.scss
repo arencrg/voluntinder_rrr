@@ -58,15 +58,7 @@ a {
 	margin: 0 25% 0 25%;
 }
 
-#showallcard {
-	background: $primary;
-	color: white;
-	width: 100%;
-	display: inline-block;
-	text-align: center;
-}
-
-#showprofilecard {
+#routescard {
 	background: $secondary;
 	color: white;
 	width: 100%;
@@ -75,12 +67,15 @@ a {
 }
 
 #oppscard {
+	background: $primary;
+	color: white !important;
 	display: inline-block;
 	text-align: center;
 	width: 100%;
 }
 
 #indextext {
+	width: 100%;
 	text-align: center;
 	display: inline-block;
 }

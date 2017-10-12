@@ -5,12 +5,6 @@ import { connect } from 'react-redux';
 import { Row, Col, Card } from 'react-materialize';
 
 class OneOpp extends Component {
-
-applyClick(){
-  alert("Thank you for applying! We will be processing your application asap. Please wait for further instructions.")
-  browserHistory.push('/opportunities');
-}
-
   render() {
     console.log("You have chosen an opp! It should be displayed here.")
 
@@ -47,44 +41,42 @@ applyClick(){
     // LET'S DO SOME MATH
     var whatIneed = reqSkills.length + reqInterests.length,
         whatIhave = x.length + y.length,
-        matchpercent = whatIhave/whatIneed*100;
+        matchpercent = Math.round(((whatIhave/whatIneed*100)) * 100) / 100
 
     console.log("You are a "+ matchpercent+"% match for this project!!!")
 
     return (
-      <div>
-        <Row>
-        <Col s={12} m={6}>
+      <div className="container">
+        <div id = "indextext">
             <h2>{this.props.chosenOpp.name}</h2>
             <p>{this.props.chosenOpp.description}</p>
+        </div>
+        <Row>
+        <Col xs={12} m={6}>
+            <h4>Dates</h4>
             <p>{this.props.chosenOpp.startdate} - {this.props.chosenOpp.enddate}</p>
-            <h3>According to our algorithms, you are a {matchpercent}% match for this project!</h3>
+            <h4>Job Description</h4>
+            <p>{this.props.chosenOpp.lipsum}</p>
         </Col>
 
-        <Col s={12} m={6}>
-            <h3>Skill Requirements</h3>
+        <Col xs={12} m={6}>
+            <h4>Skill Requirements</h4>
               <ul>
                 {reqSkills.map((skill, i) => <li key={i}>{skill.name}</li>)}
               </ul>
-            <h3>Related Fields/ Topics</h3>
+            <h4>Related Fields/ Topics</h4>
               <ul>
                 {reqInterests.map((interest, i) => <li key={i}>{interest.name}</li>)}
               </ul>
         </Col>
         </Row>
-
+        <div id = "indextext">
+          <h3>According to our algorithms, you are a {matchpercent}% match for this project!</h3>
+        </div>
           <Row>
-          <Col s={12} m={6} >
+          <Col xs={12} m={6} offset = 's0 m3'>
             <Link to="/">
-              <Card id="showallcard">
-                <h5 onClick={this.handleClick}>Apply</h5>
-              </Card>
-            </Link>
-          </Col>
-
-          <Col s={12} m={6} >
-            <Link to="/">
-              <Card id="showprofilecard">
+              <Card id="routescard">
                 <h5>Back</h5>
               </Card>
             </Link>

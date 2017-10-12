@@ -8,7 +8,7 @@ class IntroWithProfile extends Component {
           <Row>
             <Col s={12} m={6} >
             <Link to="/opportunities">
-               <Card id="showallcard">
+               <Card id="routescard">
                  <h5>View all opportunities</h5>
                </Card>
             </Link>
@@ -16,7 +16,7 @@ class IntroWithProfile extends Component {
 
             <Col s={12} m={6} >
             <Link to="/profile">
-               <Card id="showprofilecard">
+               <Card id="routescard">
                  <h5>View your profile</h5>
                </Card>
             </Link>
