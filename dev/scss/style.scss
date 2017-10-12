@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|PT+Sans');
+
+$font1:  PT Sans, sans-serif;
+$font2:  Bitter, serif;
+
+$primary: #dc5326;
+$secondary: black;
+
+h1, h2, h3 {
+	color: $primary;
+	font-family: $font1;
+	font-weight: 700;
+	font-style: italic;
+
+h1 { font-size: 28px; }
+h2 { font-size: 24px; }
+h3 { font-size: 20px; }
+
+}
+
+p, label, li {
+	font-size: 12px;
+  color: $secondary;
+	font: 100% $font2;
+}
+
+#mainlogo {
+	width: 80%;
+	margin: 0 10% 0 10%;
+}
