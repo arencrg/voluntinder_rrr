@@ -1,9 +1,12 @@
 ![Voluntinder Logo](/Documentation_Screenshots/Voluntinder.png)
 
+---------------
 
 # Project 3: Charitable Application
 
 > “If our hopes of building a better and safer world are to become more than wishful thinking, we will need the engagement of volunteers more than ever.” — Kofi Annan
+
+--------
 
 ### Table of Contents
 
@@ -27,7 +30,7 @@ Aren is a European Languages major slash graphic artist slash web developer who 
 ##### Marc Macariola
 Marc is a pragmatic individual who believes that decisions are made based on what is practical, realistic and beneficial to many. Check out Marc's Github profile [here.](https://github.com/marc-acm)
 
-<hr>
+--------------------
 
 ## The Problem
 
@@ -41,7 +44,7 @@ You may not get paid for your hours, trust us, the fulfilment you get and the gr
 
 Aren has volunteered in three different countries and in several typhoon relief operations in her university, and she is a staunch believer in the good that comes from genuine volunteer work. Marc also thinks that volunteering is a way of giving back to the community, and it's very much aligned with his religious background to offer one's self in the service of his neighbor.
 
-After a few days of research, we were able to find a few reputable groups that have compiled a list of volunteer groups and NGOs, some of them have the projects categorized and have the application links right then and there; their system is robust and it works. There are already good systems in place. Okay, so if it ain't broke, why fix it?
+After a few days of research, we were able to find a few reputable groups that have compiled a list of volunteer groups and NGOs, some of them have the projects categorized and have the application links right then and there; their system is robust and it works. There are already a few systems in place. Okay, so if it ain't broke, why fix it?
 
 ## The Solution
 
@@ -77,31 +80,32 @@ Basically, **happy volunteers => happy communities => returning volunteers => be
 ### Branding Guidelines
 ![Branding Guidelines](/Documentation_Screenshots/branding.png)
 
+The two fonts used are Google Fonts, which can be found [here.](https://fonts.google.com/?query=bitter&selection.family=Bitter|PT+Sans)
 
 ### User Stories
 
-Our Trello can be found [here](https://trello.com/b/MnJGa9TB)
+Our Trello can be found [here.](https://trello.com/b/MnJGa9TB)
 
-For the user stories, we have three (3) types of users namely:  User (Volunteer), Institution(NGOs) and Admin
+For the user stories, we have three (3) types of users namely:  User (Volunteer), Institution (NGOs), and Admin
 
 Below is the Trello Board for the Voluntinder User Stories
 ![Trello User Stories](https://github.com/marc-acm/voluntinder-ir/blob/master/images/VOLUNTINDER-TRELLO.png)
 
 1. Volunteer
-For this type of user we wanted our volunteer to be able to have the basic functions of signing-up /logging-in. Also, to have the capability to view, filter and select opportunities where they can submit their application that matches their specific skills and interests.
+For this type of user, we wanted our volunteer to be able to have the basic functions of signing-up /logging-in. Also, to have the capability to view, filter, and select opportunities where they can submit their application that matches their specific skills and interests.
 
-2. Institutions (eg. NGOs)
-An example for this type of user are NGOs. Organizations which can post their opportunities with detailed information.  The functions of these users include the ability to accept or decline an applicant and be able to add and remove opportunities depending on their schedules and status of activity.  
+2. Institutions (e.g. NGOs)
+An example for this type of user are NGOs. Organizations can post their opportunities with detailed information, specifically a job description for the future volunteers and the skills needed to participate in the project. The functionalities of these users include the ability to accept or decline an applicant and be able to add and remove opportunities depending on their schedules and status of activity.  
 
 3. Admin
-This is the super user. This has the control of the overall performance of the app.  The admin has the all the rights and privileges to properly monitor the process and design of the application.
+This is the super user. This has the control of the overall performance of the app. The admin has the all the rights and privileges to properly monitor the process, design, and maintenance of the application.
 
 ### Wireframe
-Our Figma wireframe can be found [here](https://www.figma.com/file/C3NVkU1709nBjPHMeBn0zyKT/3rd-Term-Final-Project)
+Our Figma wireframe can be found [here.](https://www.figma.com/file/C3NVkU1709nBjPHMeBn0zyKT/3rd-Term-Final-Project)
 
 For the wireframes we have created two types, one for the desktop/laptop design and the other is for mobile devices.
 
-The first three screenshots are for the desktop/laptop design.  The prospect is to provide a three-frame application consisting of the following:
+The first three screenshots are for the desktop view. The prospect is to provide a three-frame application consisting of the following:
 
 - Landing Page
 - Opportunities
@@ -120,7 +124,7 @@ The second frame provides a view of the different available projects.
 ![Wireframe - All Opps Page](https://github.com/marc-acm/voluntinder-ir/blob/master/images/VOLUNTINDER-WIFEFRAME-DESKTOP%202.png)
 
 ##### Specific Opportunity
-This page will show the details for a single specific project.
+This page will show the details for a specific project.
 
 ![Wireframe - Individual Opp](https://github.com/marc-acm/voluntinder-ir/blob/master/images/VOLUNTINDER-WIFEFRAME-DESKTOP%203.png)
 
@@ -152,15 +156,19 @@ On the opportunity side,  with each specific opportunity, it can have one or man
 
 The connection between Volunteer and Institution is only through the created Opportunity.
 
-
 ## Tools and Methodologies
 
-The basic structure of this app is based on Bucky Roberts's [repo](https://github.com/buckyroberts/React-Redux-Boilerplate) and his [React-Redux tutorial on Youtube](https://www.youtube.com/watch?v=DiLVAXlVYR0&list=PL6gx4Cwl9DGBbSLZjvleMwldX8jGgXV6a). As for the React-Router tutorial, Aren watched Evan Jones's [Youtube tutorial](https://www.youtube.com/watch?v=Smk2FusU_70&t=739s).
-
-This project went through a lot of changes, with two major repos and several overwrites and commits. This repo is the main repo, there's an existing backup, and there are 2 other repos that hold a few parts of the older versions of this project.
+This project went through a lot of changes, with two major repos and several overwrites and commits. This repo is the main repository, but there are two local backups and two other repos ([this one](https://github.com/arencrg/Vivixx-Term3-Project) and [this one](https://github.com/arencrg/t3fp_babysteps), which both didn't have Redux, so the passing of data around the app was buggy) that hold a few parts of the older versions of this project. The major block of writing code for this repo happened within the span of a day and a half at most.
 
 As to why we chose to code in React without a real backend (no server (Node/Express) nor database client (Mongo)), we decided that React would be enough to show the functionality of the app.
 
+- [ReactJS](https://reactjs.org/)
+- [React-Redux](https://github.com/reactjs/react-redux)
+- [React-Router](https://reacttraining.com/react-router/core/guides/quick-start)
+- [React-Materialize](http://react-materialize.github.io/)
+- [Sass](http://sass-lang.com/guide)
+
+The basic structure of this app is based on Bucky Roberts's [repo](https://github.com/buckyroberts/React-Redux-Boilerplate) from his [React-Redux tutorial on Youtube](https://www.youtube.com/watch?v=DiLVAXlVYR0&list=PL6gx4Cwl9DGBbSLZjvleMwldX8jGgXV6a). As for the React-Router tutorial, we found Evan Jones's [Youtube tutorial](https://www.youtube.com/watch?v=Smk2FusU_70&t=739s) to be simple enough to understand but also quite good for a 20 minute crash-course.
 
 ## Usage
 
@@ -192,7 +200,7 @@ For the purpose of the presentation, Aren has decided to hard code only one user
 
 ### Demo
 
-The app **should** be live on Heroku. =))))
+The app should be live on [Heroku](https://voluntinder-rrr.herokuapp.com/).
 
 ### Todos
 
@@ -202,4 +210,6 @@ The app **should** be live on Heroku. =))))
 
   - Some sort of client-side dashboard, and by that we mean the NGOs/ groups can view all available volunteers (maybe sorted by date, or location), and send them messages or notices that they're a fit for the opportunity, and that they might want to apply.
 
-  - An integrated donations platform (specifically for Lumad community schools)
+  - An integrated donations platform (specifically for Lumad community schools).
+
+We are also open to any suggestions! Please feel free to contact either Marc (marcmacariola1@gmail.com) or Aren (arencancode@gmail.com).
