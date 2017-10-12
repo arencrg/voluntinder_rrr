@@ -1,4 +1,5 @@
-(photo of our brand)
+![Voluntinder Logo](/Documentation_Screenshots/Voluntinder.png)
+
 
 # Project 3: Charitable Application
 
@@ -61,9 +62,15 @@ Basically, **happy volunteers => happy communities => returning volunteers => be
 
 ## Application Design
 (How we planned, screenshots of our convos on Slack, screenshots of Google Sheets/Docs, etc)
+![Initial Planning](/Documentation_Screenshots/day1.png)
+![Google Sheets Planning](/Documentation_Screenshots/gsheet.png)
+![Letter to iVolunteer](/Documentation_Screenshots/letter_ivolunteer.png)
+![Slack Conversations](/Documentation_Screenshots/slack.png)
+![More Slack Conversations](/Documentation_Screenshots/slack2.png)
 
 ### Branding Guidelines
-(photo of our brand)
+![Branding Guidelines](/Documentation_Screenshots/branding.png)
+
 
 ### User Stories
 (Trello screenshots + link)
