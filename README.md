@@ -89,6 +89,7 @@ Our Trello can be found [here.](https://trello.com/b/MnJGa9TB)
 For the user stories, we have three (3) types of users namely:  User (Volunteer), Institution (NGOs), and Admin
 
 Below is the Trello Board for the Voluntinder User Stories
+
 ![Trello User Stories](https://github.com/marc-acm/voluntinder-ir/blob/master/images/VOLUNTINDER-TRELLO.png)
 
 1. Volunteer
@@ -140,6 +141,7 @@ This page will show the details for a specific project.
 Our ERD can be found [here](https://www.lucidchart.com/invitations/accept/02cb0d00-8d1a-4c97-b9b9-ea00c17a9b70)
 
 Below is a screenshot of our ERD
+
 ![ERD](https://github.com/marc-acm/voluntinder-ir/blob/master/images/VOLUNTINDER%20-%20ERD.png)
 
 An entity relationship diagram (ERD) shows the relationships of entity sets stored in a database.
