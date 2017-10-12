@@ -1,27 +1,28 @@
 export default function () {
     return [
-    {	id: 1,
-      name: 'Greenpeace Philippines',
-      description: 'An active volunteer organization that campaigns for their mission to save the environment.',
-      skills:[{name:'Project Management', val: true}, {name: 'Presentation Skills', val:true},
-              {name:'Background in Psychology/Humanities', val:false}, {name:'Background in Healthcare Management/Medicine/Nutrition', val:false},
-              {name:'Background in Science and Technology', val:true}, {name:'Background in Business Management/Economics', val:false}],
-      interests:[{name:'Environmental Work', val:true}, {name:'Community Development', val:false}, {name:'Animal Rights', val:false},
-              {name:'LGBT Rights and Issues', val:false}, {name:'Women Empowerment', val:false}, {name:'Education and Literacy', val:false}],
-      startdate: '12 November 2017',
-      enddate: '12 May 2018'
-    },
 
-    {	id: 2,
-      name: 'Volunteer Youth Leaders for Health-Philippines',
-      description: 'A service-oriented organization that aims to empower the Filipino Youth for health.',
+    {	id: 1,
+      name: 'Gawad Kalinga',
+      description: 'a movement whose mission is to eradicate poverty for 5 millions families, and restoring the human dignity of the poor.',
       skills:[{name:'Project Management', val: true}, {name: 'Presentation Skills', val:true},
-              {name:'Background in Psychology/Humanities', val:true}, {name:'Background in Healthcare Management/Medicine/Nutrition', val:true},
+              {name:'Background in Psychology/Humanities', val:true}, {name:'Background in Healthcare Management/Medicine/Nutrition', val:false},
               {name:'Background in Science and Technology', val:false}, {name:'Background in Business Management/Economics', val:false}],
       interests:[{name:'Environmental Work', val:false}, {name:'Community Development', val:true}, {name:'Animal Rights', val:false},
               {name:'LGBT Rights and Issues', val:false}, {name:'Women Empowerment', val:false}, {name:'Education and Literacy', val:false}],
-      startdate: '22 October 2017',
-      enddate: '22 April 2018'
+      startdate: '23 August 2018',
+      enddate: '12 October 2018'
+    },
+
+    {	id: 2,
+      name: 'PinoyME Foundation',
+      description:'Started out as a social consortium to support the growth of Microfinance Institution (MFIs) before becoming a social investment banker for microentrepreneurs.',
+      skills:[{name:'Project Management', val: true}, {name: 'Presentation Skills', val:true},
+              {name:'Background in Psychology/Humanities', val:false}, {name:'Background in Healthcare Management/Medicine/Nutrition', val:false},
+              {name:'Background in Science and Technology', val:true}, {name:'Background in Business Management/Economics', val:true}],
+      interests:[{name:'Environmental Work', val:false}, {name:'Community Development', val:true}, {name:'Animal Rights', val:false},
+              {name:'LGBT Rights and Issues', val:false}, {name:'Women Empowerment', val:false}, {name:'Education and Literacy', val:false}],
+      startdate: '09 February 2018',
+      enddate: '09 August 2018'
     },
 
     {	id: 3,
@@ -37,16 +38,17 @@ export default function () {
     },
 
     {	id: 4,
-      name: 'PinoyME Foundation',
-      description:'Started out as a social consortium to support the growth of Microfinance Institution (MFIs) before becoming a social investment banker for microentrepreneurs.',
+      name: 'Volunteer Youth Leaders for Health-Philippines',
+      description: 'A service-oriented organization that aims to empower the Filipino Youth for health.',
       skills:[{name:'Project Management', val: true}, {name: 'Presentation Skills', val:true},
-              {name:'Background in Psychology/Humanities', val:false}, {name:'Background in Healthcare Management/Medicine/Nutrition', val:false},
-              {name:'Background in Science and Technology', val:true}, {name:'Background in Business Management/Economics', val:true}],
+              {name:'Background in Psychology/Humanities', val:true}, {name:'Background in Healthcare Management/Medicine/Nutrition', val:true},
+              {name:'Background in Science and Technology', val:false}, {name:'Background in Business Management/Economics', val:false}],
       interests:[{name:'Environmental Work', val:false}, {name:'Community Development', val:true}, {name:'Animal Rights', val:false},
               {name:'LGBT Rights and Issues', val:false}, {name:'Women Empowerment', val:false}, {name:'Education and Literacy', val:false}],
-      startdate: '09 February 2018',
-      enddate: '09 August 2018'
+      startdate: '22 October 2017',
+      enddate: '22 April 2018'
     },
+
 
     {	id: 5,
       name: 'United Nations World Food Programme',
@@ -84,17 +86,19 @@ export default function () {
       enddate: '12 October 2018'
     },
 
+
     {	id: 8,
-      name: 'Gawad Kalinga',
-      description: 'a movement whose mission is to eradicate poverty for 5 millions families, and restoring the human dignity of the poor.',
-      skills:[{name:'Project Management', val: true}, {name: 'Presentation Skills', val:true},
-              {name:'Background in Psychology/Humanities', val:true}, {name:'Background in Healthcare Management/Medicine/Nutrition', val:false},
-              {name:'Background in Science and Technology', val:false}, {name:'Background in Business Management/Economics', val:false}],
-      interests:[{name:'Environmental Work', val:false}, {name:'Community Development', val:true}, {name:'Animal Rights', val:false},
-              {name:'LGBT Rights and Issues', val:false}, {name:'Women Empowerment', val:false}, {name:'Education and Literacy', val:false}],
-      startdate: '23 August 2018',
-      enddate: '12 October 2018'
+    name: 'Greenpeace Philippines',
+    description: 'An active volunteer organization that campaigns for their mission to save the environment.',
+    skills:[{name:'Project Management', val: true}, {name: 'Presentation Skills', val:true},
+            {name:'Background in Psychology/Humanities', val:false}, {name:'Background in Healthcare Management/Medicine/Nutrition', val:false},
+            {name:'Background in Science and Technology', val:true}, {name:'Background in Business Management/Economics', val:false}],
+    interests:[{name:'Environmental Work', val:true}, {name:'Community Development', val:false}, {name:'Animal Rights', val:false},
+            {name:'LGBT Rights and Issues', val:false}, {name:'Women Empowerment', val:false}, {name:'Education and Literacy', val:false}],
+    startdate: '12 November 2017',
+    enddate: '12 May 2018'
     },
+
 
     { id: 9,
       name: 'Haribon Foundation',
@@ -109,7 +113,7 @@ export default function () {
     },
 
     { id: 10,
-      name: 'World Wildlife Fund Philippines (WWF)',
+      name: 'World Wildlife Fund PH (WWF)',
       description: 'an organizaation focused on addressing the issues on the Philippine environment as they also want to live in harmony',
       skills:[{name:'Project Management', val: true}, {name: 'Presentation Skills', val:true},
               {name:'Background in Psychology/Humanities', val:true}, {name:'Background in Healthcare Management/Medicine/Nutrition', val:false},
@@ -178,18 +182,6 @@ export default function () {
               {name:'LGBT Rights and Issues', val:false}, {name:'Women Empowerment', val:false}, {name:'Education and Literacy', val:true}],
       startdate: '13 August 2018',
       enddate: ' 16 November 2018'
-    },
-
-    { id: 16,
-      name: 'ChildHope Philippines',
-      description: 'a non-profit, non-politics, non-sectaria organization who advocates for the cause of the street children in the country.',
-      skills:[{name:'Project Management', val: true}, {name: 'Presentation Skills', val:true},
-              {name:'Background in Psychology/Humanities', val:true}, {name:'Background in Healthcare Management/Medicine/Nutrition', val:false},
-              {name:'Background in Science and Technology', val:false}, {name:'Background in Business Management/Economics', val:false}],
-      interests:[{name:'Environmental Work', val:false}, {name:'Community Development', val:true}, {name:'Animal Rights', val:false},
-              {name:'LGBT Rights and Issues', val:false}, {name:'Women Empowerment', val:false}, {name:'Education and Literacy', val:true}],
-      startdate: '17 September 2018',
-      enddate: '14 December 2018'
     }
   ]
 }

@@ -3,15 +3,20 @@ import { Link } from 'react-router';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { openOneOpp } from '../actions/index'
+import { Row, Col, Card } from 'react-materialize';
 
 class AllOpps extends Component {
 
   showAllOpps(){
     return this.props.opps.map((opps, i) => {
       return(
-        <div key={i} onClick={() => this.props.openOneOpp(opps)}>
-        <Link to={`/opportunity/${opps.id}`}>{opps.name}</Link>
-        <br/>{opps.description}<br/> <br/></div>
+          <Col s={12} m={4} xl={3}>
+            <Card id="oppscard">
+              <Link to={`/opportunity/${opps.id}`}>
+                  <h5 key={i} onClick={() => this.props.openOneOpp(opps)}>{opps.name}</h5>
+              </Link>
+            </Card>
+          </Col>
       );
     })
   }
@@ -19,10 +24,20 @@ class AllOpps extends Component {
   render() {
     return (
       <div>
-        <h3>Here we will show all the available opps.</h3>
+        <h4><center>Here are all of our available volunteer opportunities:</center></h4>
+        <Row>
         {this.showAllOpps()}
-        <br/>
-        <Link to="/">Back</Link>
+        </Row>
+
+        <Row>
+          <Col s={12} >
+            <Link to="/">
+              <Card id="showprofilecard">
+                <h5>Back to the main page</h5>
+              </Card>
+            </Link>
+          </Col>
+        </Row>
       </div>
       )
     }

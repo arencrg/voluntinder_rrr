@@ -3,7 +3,7 @@ import IndexPage from '../containers/IndexPage'
 require('../../scss/style.scss');
 
 const App = () => (
-    <div>
+    <div className="container">
         <IndexPage />
     </div>
 );

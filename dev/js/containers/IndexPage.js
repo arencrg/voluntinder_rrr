@@ -2,55 +2,53 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import { openOneOpp } from '../actions/index'
+import { openOneOpp } from '../actions/index';
+import { Row, Col, Card } from 'react-materialize';
+
+import IntroWithProfile from './IntroWithProfile'
+import IntroWithoutProfile from './IntroWithoutProfile'
 
 class IndexPage extends Component {
-
   showSomeOpps(){
-    return this.props.opps.slice(0, 4).map((opps, i) => {
+    return this.props.opps.slice(0, 3).map((opps, i) => {
       return(
-        <div key={i} onClick={() => this.props.openOneOpp(opps)}>
-        <Link to={`/opportunity/${opps.id}`}>{opps.name}</Link></div>
+         <Col s={12} m={4}>
+          <Link to={`/opportunity/${opps.id}`}>
+            <Card id="oppscard">
+              <h5 key={i} onClick={() => this.props.openOneOpp(opps)}>{opps.name}</h5>
+            </Card>
+          </Link>
+        </Col>
       );
     })
   }
 
     render() {
-          if (!this.props.user) {
-              return (
-                <div>
-                  <h3>This the index page</h3>
-                  <p>(Some copy here, something about volunteering and this project, and then show like 3-5 opps then a link to all available opps)</p>
-                  <h3>Here are some of our available opps!</h3>
-                  {this.showSomeOpps()}
-                  <br/>
-                  <h3>Do you want to see more opps?</h3>
-                  <Link to="/opportunities">See all opps</Link>
-                  <br/>
-                  <h3>Create your profile now!</h3>
-                  <Link to="/createprofile">Create account</Link>
-                </div>
-              );
-            }
-
-            else {
-              return(
-                <div>
-                  <h3>This the index page</h3>
-                  <p>(Some copy here, something about volunteering and this project, and then show like 3-5 opps then a link to all available opps)</p>
-                  <h3>Here are some of our available opps!</h3>
-                  {this.showSomeOpps()}
-                  <br/>
-                  <h3>Do you want to see more opps?</h3>
-                  <Link to="/opportunities">See all opps</Link>
-                  <br/>
-                  <h3>Create your profile now!</h3>
-                  <Link to="/profile">Your Profile</Link>
-                </div>
-              );
-            }
-
-    }
+      if (!this.props.user) {
+          return (
+            <div>
+              <p><center>Our team believes that work done for no one's benefit is time wasted. The problem we've decided to focus on is the lack of resources to find meaningful projects for people to dedicate themselves to, so we decided to create a matching platform for volunteer experiences.
+              <br/><br/>Check out some of our available volunteer opportunities below.</center></p>
+              <Row>
+              {this.showSomeOpps()}
+              </Row>
+              <IntroWithoutProfile />
+            </div>
+          );
+        }
+        else {
+          return(
+            <div>
+              <p><center>Our team believes that work done for no one's benefit is time wasted. The problem we've decided to focus on is the lack of resources to find meaningful projects for people to dedicate themselves to, so we decided to create a matching platform for volunteer experiences.
+              <br/><br/>Check out some of our available volunteer opportunities below.</center></p>
+              <Row>
+              {this.showSomeOpps()}
+              </Row>
+              <IntroWithProfile/>
+            </div>
+          );
+        }
+  }
 }
 
 function mapStateToProps(state) {

@@ -6,25 +6,74 @@ $font2:  Bitter, serif;
 $primary: #dc5326;
 $secondary: black;
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	color: $primary;
 	font-family: $font1;
 	font-weight: 700;
 	font-style: italic;
 
-h1 { font-size: 28px; }
-h2 { font-size: 24px; }
+h1 { font-size: 24px; }
+h2 { font-size: 22px; }
 h3 { font-size: 20px; }
-
 }
 
+h4, h5 {
+	font-family: $font1;
+	font-style: normal;
+h4 { font-size: 18px; color: $primary}
+h5 { font-size: 14px; color: $secondary; }
+}
+
+
 p, label, li {
-	font-size: 12px;
+	font-size: 14px;
   color: $secondary;
 	font: 100% $font2;
 }
 
+a {
+	 color: $primary;
+	 font-size: 16px;
+ 	 font: 100% $font2;
+		 &:hover {
+			 color: $primary;
+			 text-decoration: line-through;
+		 }
+		 &:visited {
+			 color: $secondary;
+			 font-weight: bolder;
+			 text-decoration: line-through;
+		 }
+		 &:active {
+			 color: $primary;
+			 font-weight: bold;
+		 }
+ }
+
+
 #mainlogo {
-	width: 80%;
-	margin: 0 10% 0 10%;
+	width: 50%;
+	margin: 0 25% 0 25%;
+}
+
+#showallcard {
+	background: $primary;
+	color: white;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+#showprofilecard {
+	background: $secondary;
+	color: white;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+#oppscard {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
 }
