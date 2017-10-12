@@ -45,7 +45,7 @@ class IndexPage extends Component {
                   <Link to="/opportunities">See all opps</Link>
                   <br/>
                   <h3>Create your profile now!</h3>
-                  <Link to="/profile/:id">Your Profile</Link>
+                  <Link to="/profile">Your Profile</Link>
                 </div>
               );
             }

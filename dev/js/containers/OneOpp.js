@@ -8,12 +8,8 @@ class OneOpp extends Component {
     console.log("You have chosen an opp! It should be displayed here.")
     console.log(this.props.chosenOpp);
 
-
     var reqSkills = this.props.chosenOpp.skills.filter(function (skill) {
       if (skill.val == true) {return (skill)} });
-
-    console.log(reqSkills)
-
     var reqInterests = this.props.chosenOpp.interests.filter(function (interest) {
       if (interest.val == true) {return (interest)} });
 

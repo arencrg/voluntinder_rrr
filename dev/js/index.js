@@ -34,7 +34,7 @@ const Routes = props => {
         <Route path="/opportunities" component={AllOpps}/>
         <Route path="/opportunity/:id" component={OneOpp}/>
         <Route path="/createprofile" component={New}/>
-        <Route path="/profile/:id" component={Profile}/>
+        <Route path="/profile" component={Profile}/>
         <Route path="*">
           <IndexRedirect to="/" />
         </Route>

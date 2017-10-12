@@ -1,30 +1,34 @@
-## Getting Started
-
-To get started, first install all the necessary dependencies.
-```
-> npm install
-```
-
-Run an initial webpack build
-```
-> webpack
-```
-
-Start the development server (changes will now update live in browser)
-```
-> npm run start
-```
-
-To view your project, go to: [http://localhost:3000/](http://localhost:3000/)
-
-
-
+(photo of our brand)
 
 # Project 3: Charitable Application
 
 > “If our hopes of building a better and safer world are to become more than wishful thinking, we will need the engagement of volunteers more than ever.” — Kofi Annan
 
-### The Problem
+### Table of Contents
+
+- [Team Profiles](#team-profiles)
+- [The Problem](#the-problem)
+- [The Solution](#the-solution)
+- [Application Design](#application-design)
+    - [Branding Guidelines](#branding-guidelines)
+    - [User Stories](#user-stories)
+    - [Wireframe](#wireframe)
+    - [Entity Relationship Diagram](#entity-relationship-diagram)
+- [Tools and Methodologies](#tools-and-methodologies)
+- [Usage](#usage)
+- [Todos](#todos)
+
+### Team Profiles
+
+##### Aren Cariaga
+Aren is a European Languages major slash graphic artist slash web developer who likes breakfast food and selfies. Check out Aren's Github profile [here.](https://github.com/arencrg)
+
+##### Marc Macariola
+Marc is a pragmatic individual who believes that decisions are made based on what is practical, realistic and beneficial to many. Check out Marc's Github profile [here.](https://github.com/marc-acm)
+
+<hr>
+
+## The Problem
 
 Our team believes that work done for no one's benefit is time wasted. The problem we've decided to focus on is the lack of resources to find meaningful projects for people to dedicate themselves to, so we decided to create a matching platform for volunteer experiences.
 
@@ -32,11 +36,13 @@ At this point, you may find yourself asking, _Why volunteer? Who still does that
 
 > "Service to others is the rent you pay for your room here on Earth."
 
-You may not get paid for your hours, trust us, the fulfilment you get and the gratefulness of the people whom you've helped is more than enough for payment. Aren, one of the members of the team, has volunteered in three different countries and in several typhoon relief operations in her university, and she is a staunch believer in the good that comes from genuine volunteer work. Marc, the other half of the duo also thinks that volunteering is a way of giving back to the community.
+You may not get paid for your hours, trust us, the fulfilment you get and the gratefulness of the people whom you've helped is more than enough for payment.
+
+Aren has volunteered in three different countries and in several typhoon relief operations in her university, and she is a staunch believer in the good that comes from genuine volunteer work. Marc also thinks that volunteering is a way of giving back to the community, and it's very much aligned with his religious background to offer one's self in the service of his neighbor.
 
 After a few days of research, we were able to find a few reputable groups that have compiled a list of volunteer groups and NGOs, some of them have the projects categorized and have the application links right then and there; their system is robust and it works. There are already good systems in place. Okay, so if it ain't broke, why fix it?
 
-### The Solution
+## The Solution
 
 This is where our app comes in. The app we've been working on is a platform to deliver better exchange experiences. Our definition of "better" is divided into 2 parts that contribute to our end goal:
 
@@ -53,24 +59,63 @@ This is where our app comes in. The app we've been working on is a platform to d
 
 Basically, **happy volunteers => happy communities => returning volunteers => better experences for both parties.**
 
-
-/////
-# This is where the technical part goes!!!
-
 ## Application Design
+(How we planned, screenshots of our convos on Slack, screenshots of Google Sheets/Docs, etc)
 
-Demonstrate your ability to break down the problem and design a solution.
+### Branding Guidelines
+(photo of our brand)
 
-1. One page summary of your application including problem definition, solution. -- **DONE**
-2. Determine the appropriate client technology, development tools, and platform for writing the UI -- **Maybe talk about why we chose React + React Redux + Whatever and then explain the folder structure and the special components maybe?**
-3. Wireframes for at least 3 screens. **Marc**
-4. User stories for the whole application. **Marc**
-5. Entity Relationship Diagram (ERD). **Marc**
+### User Stories
+(Trello screenshots + link)
 
-Tools and methodologies
+### Wireframe
+(Figma screenshots + link)
 
-1. Trello or similar project management tool to be used to track progress of build. **Maybe screenshots of the stuff we've worked on, maybe the Google Sheet (planning), and then this README on Dillinger? Hahahaha**
-2. Show evidence of Slack conversations or use of other communication tools. **I wonder if there's a way to show how many messages we've sent hahahaha or maybe we can add a screenshot hahahahaha**
-3. Code review. Demonstrate that you have had your code reviewed by other students and that you have provided a code review for others. **Uhhhhhhhhhhhhh**
-4. Github. Demonstrate use of frequent commits, pull requests, documentation. **SO MANY DIFFERENT REPOS HAHAHAHA**
-5. Provide evidence you have used code quality tools **So far I haven't used anything hahahahahaha**
+### Entity Relationship Diagram
+(LucidChart screenshots + link)
+
+## Tools and Methodologies
+(some copy of why React, why no backend, etc)
+(Links to the previous repos and all the stuff I cloned to learn how to make this app)
+
+## Usage
+
+To get started, first clone or download this repository
+```
+> git clone (link)
+```
+
+Then install all the necessary dependencies. (Feel free to use yarn or whatever.)
+```
+> npm install
+```
+
+Run an initial webpack build
+```
+> webpack
+```
+
+Start the development server so that changes will be updated live in the browser
+```
+> npm run start
+```
+
+And then we're good to go! Check out where the magic happens on [http://localhost:3000/](http://localhost:3000/)
+
+#### Notes
+
+For the purpose of the presentation, Aren has decided to hard code only one user (Juan dela Cruz). However, there is a route for the creation of a new profile.
+
+### Demo
+
+The app **should** be live on Heroku. =))))
+
+### Todos
+
+- Make it better. =))))))
+
+- A few ideas we've been playing around with:
+
+  - Some sort of client-side dashboard, and by that we mean the NGOs/ groups can view all available volunteers (maybe sorted by date, or location), and send them messages or notices that they're a fit for the opportunity, and that they might want to apply.
+
+  - An integrated donations platform (specifically for Lumad community schools)
