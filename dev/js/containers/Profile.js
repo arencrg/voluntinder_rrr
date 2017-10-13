@@ -9,10 +9,8 @@ class Profile extends Component {
       console.log("This is your user profile, your info should be displayed here.")
       console.log(this.props.user);
 
-      var mySkills = this.props.user.skills.filter(function (skill) {
-        if (skill.val == true) {return (skill)} });
-      var myInterests = this.props.user.interests.filter(function (interest) {
-        if (interest.val == true) {return (interest)} });
+      var mySkills = this.props.user.skills
+      var myInterests = this.props.user.interests
 
 
       return(
@@ -33,9 +31,9 @@ class Profile extends Component {
         </Col>
         </Row>
           <h4>My Skills</h4>
-                {mySkills.map((skill, i) => <li key={i}>{skill.name}</li>)}
+                {mySkills.map((skill, i) => <li key={i}>{skill}</li>)}
           <h4>Interests</h4>
-                {myInterests.map((interest, i) => <li key={i}>{interest.name}</li>)}
+                {myInterests.map((interest, i) => <li key={i}>{interest}</li>)}
           <br/>
 
         </Card>
