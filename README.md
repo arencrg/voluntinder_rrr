@@ -112,7 +112,7 @@ The first three screenshots are for the desktop view. The prospect is to provide
 - Opportunities
 - Details of A Specific Opportunity
 
-The application is designed with an option of a static bar to be shown throughout the three frames.
+The application is designed with an option of a static bar to be shown throughout the four frames.
 
 ##### Landing Page
 This contains the Sign-up Form for people who desires to have their profile match with a specific project.
@@ -129,13 +129,23 @@ This page will show the details for a specific project.
 
 ![Wireframe - Individual Opp](https://github.com/marc-acm/voluntinder-ir/blob/master/images/VOLUNTINDER-WIFEFRAME-DESKTOP%203.png)
 
-##### Below is the Mobile Design with the same three frames
+##### Profile Page
+This frame provides details of the volunteer.
+![Wireframe - User Profile](https://github.com/marc-acm/voluntinder-ir/blob/master/images/VOLUNTINDER-WIFEFRAME-DESKTOP%204.png)
+
+
+
+##### Below is the Mobile Design with the same four frames
 
 ![Mobile Landing](https://github.com/marc-acm/voluntinder-ir/blob/master/images/VOLUNTINDER%20-%20WIREFRAME%20-%20MOBILE%201.png)
 
 ![Mobile All](https://github.com/marc-acm/voluntinder-ir/blob/master/images/VOLUNTINDER%20-%20WIREFRAME%20-%20MOBILE%202.png)
 
 ![Mobile One](https://github.com/marc-acm/voluntinder-ir/blob/master/images/VOLUNTINDER%20-%20WIREFRAME%20-%20MOBILE%203.png)
+
+![Mobile Profile](https://github.com/marc-acm/voluntinder-ir/blob/master/images/VOLUNTINDER%20-%20WIREFRAME%20-%20MOBILE%204.png)
+
+
 
 ### Entity Relationship Diagram
 Our ERD can be found [here](https://www.lucidchart.com/invitations/accept/02cb0d00-8d1a-4c97-b9b9-ea00c17a9b70)
