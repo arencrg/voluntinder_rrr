@@ -174,12 +174,13 @@ The basic structure of this app is based on Bucky Roberts's [repo](https://githu
 
 ## Usage
 
-To get started, first clone or download this repository
+To get started, first clone or download this repository, and then go into the folder.
 ```
-> git clone (link)
+> git clone (link) 
+> cd voluntinder_rrr
 ```
 
-Then install all the necessary dependencies. (Feel free to use yarn or whatever.)
+Install all the necessary dependencies. (Feel free to use yarn or whatever.)
 ```
 > npm install
 ```
